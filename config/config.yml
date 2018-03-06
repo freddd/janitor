@@ -1,0 +1,20 @@
+tracker:
+  keysRegexp: # TODO externalize the regexp for keys
+  keywords:
+    - config
+    - vault
+    - password
+    - secret
+    - client_secret
+    - access_key
+    - secret_key
+  fileNames:
+    - ".pem"
+    - ".credentials"
+    - "passwd"
+    - ".secret"
+    - "config"
+  repoPath: null
+  whitelist:
+    - .git
+    - .min

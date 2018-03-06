@@ -1,0 +1,14 @@
+package: ""
+import:
+- package: github.com/parnurzeal/gorequest
+  version: ^0.2.15
+- package: github.com/onsi/gomega
+  version: ^1.2.0
+- package: gopkg.in/yaml.v2
+- package: github.com/mitchellh/cli
+- package: github.com/armon/go-radix
+- package: github.com/likexian/whois-go
+- package: github.com/likexian/whois-parser-go
+- package: github.com/olekukonko/tablewriter
+- package: github.com/mattn/go-runewidth
+  version: ^0.0.2
